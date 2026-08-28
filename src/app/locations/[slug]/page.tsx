@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const url = `${SITE.url}/locations/${slug}`;
   return {
     title: `${SITE.name} — ${loc.name}`,
-    description: `${loc.intro} Livestock mortality, workers' comp, farm property, equipment & spoilage, and pollution for ${loc.name} industrial coatings farms. 15-minute quotes.`,
+    description: `${loc.intro} General liability, contractors pollution liability, workers' comp, commercial auto, and equipment coverage for ${loc.name} industrial coatings contractors. 15-minute quotes.`,
     alternates: { canonical: url },
     openGraph: { title: `${SITE.name} — ${loc.name} | Contractors Choice Agency`, description: loc.intro, url },
   };
@@ -99,9 +99,9 @@ export default async function LocationPage({ params }: Props) {
         <section className="bg-cream py-16 md:py-20">
           <div className="container-tight">
             <FadeIn className="max-w-2xl mb-10">
-              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} dairies</span>
-              <h2 className="mt-3 h-section">The full program, built for {loc.name} industrial coatings farms.</h2>
-              <p className="mt-4 lead">From a family operation to a multi-site production group, we coordinate every line a {loc.name} industrial coatings needs.</p>
+              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} industrial coatings contractors</span>
+              <h2 className="mt-3 h-section">The full program, built for {loc.name} industrial coatings contractors.</h2>
+              <p className="mt-4 lead">From a single crew to a multi-site operation, we coordinate every line a {loc.name} industrial coatings contractor needs.</p>
             </FadeIn>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {SERVICES.slice(0, 4).map((s, i) => (
@@ -119,7 +119,7 @@ export default async function LocationPage({ params }: Props) {
 
         <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Industrial Coatings insurance questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
 
-        <CTABand title={`Insuring industrial coatings farms in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
+        <CTABand title={`Insuring industrial coatings contractors in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
       </main>
       <Footer />
     </>
