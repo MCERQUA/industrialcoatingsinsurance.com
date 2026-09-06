@@ -271,7 +271,7 @@ export const HOME_FAQS = [
   { q: "Do industrial coatings contractors need inland marine for equipment?", a: "Yes. Your blast rigs, spray equipment, scaffolding components, and application equipment are not covered by GL. An inland marine or tools and equipment floater covers this equipment at job sites, in transit, and at your yard. For a major coatings contractor, the replacement cost of a full set of equipment is significant." },
   { q: "How does pollution liability work for coatings near waterways?", a: "Bridge painting and structure coating near waterways creates pollution liability risk from containment failures, wash water, and blast media. CPL covers these events — third-party bodily injury, property damage, and cleanup costs from coating-related pollution conditions near water." },
   { q: "What is the minimum GL coverage for a coatings contractor?", a: "Most coatings contractors carry $1M per occurrence / $2M aggregate at minimum. Project owners and DOTs may require $2M to $5M per occurrence — umbrella coverage is the most cost-effective way to meet these requirements." },
-  { q: "How do I contact Industrial Coatings Insurance?", a: "Call 844-967-5247 (Mon–Fri 8am–5pm MST), email josh@contractorschoiceagency.com, or submit the online quote form. We are at 12220 E Riggs Road, Suite #105, Chandler AZ 85249. NPN 8608479, licensed all 50 states." },
+  { q: "How do I contact Industrial Coatings Insurance?", a: "Call 844-967-5247 (Mon–Fri 8am–5pm MST), email josh@contractorschoiceagency.com, or submit the online quote form. We are at 12220 E Riggs Road, Suite #104, Chandler AZ 85249. NPN 8608479, licensed all 50 states." },
 ] as const;
 
 export const GENERAL_FAQS = [
@@ -286,7 +286,7 @@ export const GENERAL_FAQS = [
   { q: "What if a project requires a specific AI endorsement form?", a: "We are experienced with DOT AI requirements and facility owner contract language. Tell us what your contract specifies and we will confirm your policy meets those requirements before binding." },
   { q: "Can you handle multi-state WC for coatings crews?", a: "Yes. We coordinate multi-state workers compensation programs as standard for industrial coatings contractors who work across state lines." },
   { q: "Phone number?", a: "844-967-5247, Monday through Friday 8am to 5pm Mountain Time." },
-  { q: "Office location?", a: "12220 E Riggs Road, Suite #105, Chandler, AZ 85249." },
+  { q: "Office location?", a: "12220 E Riggs Road, Suite #104, Chandler, AZ 85249." },
   { q: "Email?", a: "josh@contractorschoiceagency.com." },
   { q: "Can I get a quote online?", a: "Yes. Submit the quote form at industrialcoatingsinsurance.com/quote and we will respond within 15 minutes during business hours, or call 844-967-5247." },
 ] as const;
