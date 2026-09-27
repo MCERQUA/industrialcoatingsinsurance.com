@@ -34,7 +34,7 @@ export function Navbar() {
       <nav className="container-wide flex items-center justify-between h-18 py-3">
         <Link href="/" className="flex items-center gap-2.5 group" aria-label={`${SITE.name} home`}>
           <span className="relative inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-clay-gradient shadow-warm">
-            <ShieldCheck className="h-7 w-7 text-clay" />
+            <ShieldCheck className="h-7 w-7 text-cream" />
             <span className="absolute -bottom-1 -right-1 h-3 w-3 rounded-full bg-gold border-2 border-cream" />
           </span>
           <span className="flex flex-col leading-none">

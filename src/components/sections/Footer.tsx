@@ -25,7 +25,7 @@ export function Footer() {
       <div className="container-wide py-14 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
         <div className="col-span-2 lg:col-span-2">
           <div className="flex items-center gap-2.5 mb-4">
-            <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-clay-gradient"><ShieldCheck className="h-8 w-8 text-clay" /></span>
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-clay-gradient"><ShieldCheck className="h-8 w-8 text-cream" /></span>
             <span className="flex flex-col leading-none">
               <span className="font-heading font-extrabold text-cream text-lg">{BRAND.brandShort}</span>
               <span className="font-heading font-semibold text-gold text-[0.65rem] uppercase tracking-[0.18em]">{BRAND.brandSub}</span>
