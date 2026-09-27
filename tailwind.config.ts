@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 /* ============================================================
    INDUSTRIAL COATING INSURANCE — "Steel Shield" palette
-   clay = slate navy · sage = teal · gold = industrial orange
+   clay = iron-oxide rust · sage = teal · gold = industrial orange
    ============================================================ */
 
 const config: Config = {
@@ -14,23 +14,26 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: "#F6F8FA",
-        sand: "#EBF0F4",
+        cream: "#FBF8F3",
+        sand: "#F3EEE6",
         white: "#FFFFFF",
+        // Was a slate-navy ramp; now iron-oxide rust (Josh: no blue/purple/pink).
+        // #7A3414 is 8.5:1 on cream. clay-gradient runs dark->DEFAULT so the
+        // FinalCTA gold-light heading keeps 4.4:1 (2.6:1 if it ended on clay-light).
         clay: {
-          DEFAULT: "#1E3A5E",
-          dark: "#132640",
-          light: "#2E5280",
-          50: "#EBF0F7",
-          100: "#CCDAEC",
-          200: "#99B4D9",
-          300: "#668FC6",
-          400: "#3869B3",
-          500: "#2E5280",
-          600: "#1E3A5E",
-          700: "#132640",
-          800: "#0A1628",
-          900: "#040A14",
+          DEFAULT: "#7A3414",
+          dark: "#57240E",
+          light: "#A0501F",
+          50: "#FBEFE8",
+          100: "#F4D6C4",
+          200: "#E8AE8A",
+          300: "#D4834F",
+          400: "#B9612B",
+          500: "#A0501F",
+          600: "#7A3414",
+          700: "#57240E",
+          800: "#3A180A",
+          900: "#1F0D05",
         },
         sage: {
           DEFAULT: "#2E7B6B",
@@ -58,11 +61,11 @@ const config: Config = {
           600: "#B05C10",
           700: "#804208",
         },
-        espresso: "#0E1824",
-        cocoa: "#3A4850",
-        mocha: "#687078",
-        adobe: "#D4DCE4",
-        adobeDark: "#B8C4CC",
+        espresso: "#1E1712",
+        cocoa: "#4A4038",
+        mocha: "#6E6358",
+        adobe: "#E7DFD3",
+        adobeDark: "#D2C4B2",
       },
       fontFamily: {
         heading: ["var(--font-heading)", "Georgia", "serif"],
@@ -76,19 +79,19 @@ const config: Config = {
       },
       backgroundImage: {
         "sunrise-bands":
-          "linear-gradient(180deg, #F6F8FA 0%, #EBF0F4 40%, #E2EAF2 70%, #F6F8FA 100%)",
+          "linear-gradient(180deg, #FBF8F3 0%, #F3EEE6 40%, #EFE6DA 70%, #FBF8F3 100%)",
         "warm-radial":
-          "radial-gradient(circle at 30% 20%, rgba(46,82,128,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(224,120,32,0.08) 0%, transparent 55%)",
-        "clay-gradient": "linear-gradient(135deg, #1E3A5E 0%, #2E5280 100%)",
+          "radial-gradient(circle at 30% 20%, rgba(160,80,31,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(224,120,32,0.08) 0%, transparent 55%)",
+        "clay-gradient": "linear-gradient(135deg, #57240E 0%, #7A3414 100%)",
         "sage-gradient": "linear-gradient(135deg, #2E7B6B 0%, #4A9E8A 100%)",
         "gold-gradient": "linear-gradient(135deg, #E07820 0%, #F09A50 100%)",
       },
       boxShadow: {
-        warm: "0 10px 40px -15px rgba(30, 58, 94, 0.22), 0 4px 12px -6px rgba(14, 24, 36, 0.08)",
-        "warm-lg": "0 30px 70px -20px rgba(30, 58, 94, 0.28), 0 10px 30px -10px rgba(14, 24, 36, 0.10)",
-        card: "0 2px 8px -2px rgba(14, 24, 36, 0.06), 0 1px 3px -1px rgba(14, 24, 36, 0.04)",
-        "card-hover": "0 20px 50px -15px rgba(30, 58, 94, 0.22), 0 8px 20px -8px rgba(14, 24, 36, 0.10)",
-        arch: "inset 0 -8px 30px -10px rgba(30, 58, 94, 0.10)",
+        warm: "0 10px 40px -15px rgba(122, 52, 20, 0.22), 0 4px 12px -6px rgba(30, 23, 18, 0.08)",
+        "warm-lg": "0 30px 70px -20px rgba(122, 52, 20, 0.28), 0 10px 30px -10px rgba(30, 23, 18, 0.10)",
+        card: "0 2px 8px -2px rgba(30, 23, 18, 0.06), 0 1px 3px -1px rgba(30, 23, 18, 0.04)",
+        "card-hover": "0 20px 50px -15px rgba(122, 52, 20, 0.22), 0 8px 20px -8px rgba(30, 23, 18, 0.10)",
+        arch: "inset 0 -8px 30px -10px rgba(122, 52, 20, 0.10)",
       },
       keyframes: {
         "fade-up": { "0%": { opacity: "0", transform: "translateY(20px)" }, "100%": { opacity: "1", transform: "translateY(0)" } },

@@ -60,11 +60,6 @@ export const COPY = {
   process: {
     lead: "Getting industrial coatings contractor insurance built for major project work shouldn't take weeks. Our process moves fast.",
   },
-  testimonials: {
-    eyebrow: "What coatings contractors say",
-    h2Lead: "Trusted by Industrial Coatings",
-    h2Highlight: "Contractors Nationwide",
-  },
   finalCta: {
     h2Lead: "Ready to Protect Your",
     h2Highlight: "Coatings Business?",
@@ -144,7 +139,7 @@ export const COPY = {
     errorMessage: "Something went wrong. Please call us at 844-967-5247.",
     businessPlaceholder: "ABC Industrial Coatings LLC",
     emailPlaceholder: "you@industrialcoatings.com",
-    phonePlaceholder: "(555) 000-0000",
+    phonePlaceholder: "Best number to reach you",
     messagePlaceholder:
       "Tell us about your operation — types of projects (bridges, facilities, tanks), coating systems (epoxy, zinc-rich, polyurethane), crew size, states, annual revenue...",
   },

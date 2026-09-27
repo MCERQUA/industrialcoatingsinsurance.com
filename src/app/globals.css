@@ -5,23 +5,23 @@
 /* ============================================================
    INDUSTRIAL COATING INSURANCE — "Fresh hills" Design System
    Light · corporate · clean
-   (token NAMES inherited; VALUES remapped: clay=brand green,
-   sage=stream blue, gold=honey)
+   (token NAMES inherited; VALUES remapped: clay=iron-oxide rust,
+   sage=teal, gold=industrial orange)
    ============================================================ */
 
 @layer base {
   :root {
-    --bg-cream: #F6F8FA;
-    --bg-sand: #EBF0F4;
+    --bg-cream: #FBF8F3;
+    --bg-sand: #F3EEE6;
     --bg-white: #FFFFFF;
-    --clay: #1E3A5E;
-    --clay-dark: #132640;
+    --clay: #7A3414;
+    --clay-dark: #57240E;
     --sage: #2E7B6B;
     --gold: #E07820;
-    --espresso: #0E1824;
-    --cocoa: #3A4850;
-    --mocha: #687078;
-    --adobe: #D4DCE4;
+    --espresso: #1E1712;
+    --cocoa: #4A4038;
+    --mocha: #6E6358;
+    --adobe: #E7DFD3;
     --radius: 1rem;
   }
 
@@ -49,7 +49,7 @@
   }
 
   ::selection {
-    background: rgba(30, 58, 94, 0.14);
+    background: rgba(122, 52, 20, 0.14);
     color: var(--espresso);
   }
 }
@@ -99,7 +99,7 @@
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 24%, #2E7BB5 58%, #E0A82E 100%);
+    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 24%, #A0501F 58%, #E0A82E 100%);
   }
   .pill { @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-heading font-semibold uppercase tracking-wider; }
   .pill-clay { @apply pill bg-clay/10 text-clay border border-clay/20; }
@@ -115,7 +115,7 @@
     background-color: var(--bg-cream);
     background-image:
       radial-gradient(circle at 15% 15%, rgba(74, 139, 88, 0.10) 0%, transparent 35%),
-      radial-gradient(circle at 85% 75%, rgba(46, 123, 181, 0.07) 0%, transparent 40%);
+      radial-gradient(circle at 85% 75%, rgba(160, 80, 31, 0.07) 0%, transparent 40%);
   }
   .bg-sonoran-sand {
     background-color: var(--bg-sand);
@@ -126,14 +126,14 @@
   .bg-warm-radial {
     background:
       radial-gradient(ellipse at top, rgba(74, 139, 88, 0.12) 0%, transparent 55%),
-      radial-gradient(ellipse at bottom right, rgba(46, 123, 181, 0.07) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(160, 80, 31, 0.07) 0%, transparent 50%),
       var(--bg-cream);
   }
   /* Field band — layered rolling hills = hills horizon */
   .horizon-band {
     background: linear-gradient(180deg,
       #2F6B3E 0% 18%, #4A8B58 18% 34%, #E0A82E 34% 48%,
-      #4A8B58 48% 62%, #2F6B3E 62% 78%, #2E7BB5 78% 100%);
+      #4A8B58 48% 62%, #2F6B3E 62% 78%, #A0501F 78% 100%);
   }
   .grain {
     background-image:
@@ -148,7 +148,7 @@
   .arch-divider::after {
     content: ""; position: absolute; inset: 0; margin: auto;
     width: 10rem; height: 1.4rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 18%, #4A8B58 18% 40%, #E0A82E 40% 62%, #2E7BB5 62% 82%, #2F6B3E 82% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 18%, #4A8B58 18% 40%, #E0A82E 40% 62%, #A0501F 62% 82%, #2F6B3E 82% 100%);
     border-radius: 0.5rem; opacity: 0.92;
   }
 
@@ -161,7 +161,7 @@
   .prose-warm li::before {
     content: ""; position: absolute; left: 0; top: 0.55em;
     width: 1.1rem; height: 0.5rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 35%, #E0A82E 35% 70%, #2E7BB5 70% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 35%, #E0A82E 35% 70%, #A0501F 70% 100%);
     border-radius: 0.15rem 0.5rem 0.15rem 0.5rem; opacity: 0.9;
   }
   .prose-warm strong { @apply text-espresso font-semibold; }

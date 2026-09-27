@@ -215,24 +215,3 @@ export const STATS = [
   { value: 15, suffix: " min", label: "Average quote turnaround", prefix: "" },
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
-
-export const TESTIMONIALS = [
-  {
-    quote: "We do bridge painting for state DOTs across three states. The additional insured requirements, high liability limits, and environmental regulations vary by project. Industrial Coatings Insurance put us with a carrier who understands infrastructure coatings work — we get the certificates we need and the program is built for our scale.",
-    name: "Kevin M.",
-    role: "Owner, Bridge Coatings Specialists Inc.",
-    location: "Pennsylvania",
-  },
-  {
-    quote: "Petrochemical facility coatings work requires CPL, specific additional insured forms, and high umbrella limits. Generic contractors insurance either won't write it or prices it wrong. CCA understands our work and wrote a program that actually fits — GL, CPL, professional liability, and $10M umbrella, all coordinated.",
-    name: "Sandra L.",
-    role: "President, Industrial Coatings Group",
-    location: "Texas",
-  },
-  {
-    quote: "We had a professional liability claim on a bridge anti-corrosion coating project — coating failure three years in on a 20-year specification. Our E&O carrier defended us and resolved the claim for substantially less than we expected. That's why professional liability isn't optional for infrastructure coatings contractors.",
-    name: "Tom R.",
-    role: "VP Operations",
-    location: "Ohio",
-  },
-] as const;
